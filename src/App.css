@@ -1,0 +1,32 @@
+/* Default styles for header-sidebar-container and sidebar */
+.header-sidebar-container {
+  display: flex;
+}
+
+.sidebar {
+  width: 20%;
+}
+
+.main{
+  margin: 50px;
+}
+
+
+.parent { 
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center; /* Default stretch */
+  }
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .header-sidebar-container {
+    flex-direction: column-reverse; /* Stack sidebar below the header on small screens */
+  }
+
+  .sidebar {
+    width: 100%; /* Take full width on small screens */
+    order: 1; /* Display sidebar below the header on small screens */
+  }
+}
