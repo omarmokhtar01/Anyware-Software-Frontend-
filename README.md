@@ -1,35 +1,40 @@
-###Anyware Software (Fullstack Challenge)
-Table of Contents
-###Frontend Part
+# Frontend Documentation
 
-Description
-Features
-Technologies
-Setup
-Testing
-Backend Part
+## Overview
 
-Description
-API Endpoints
-Technologies
-Setup
-Testing
-Frontend Part
-Description
-This project is a responsive dashboard application with a login/logout feature. The dashboard is rendered only for logged-in users, while others are directed to the home page. The application is built using reusable components and incorporates Material UI for a consistent and polished UI. Additionally, the sidebar links change background and foreground colors on hover.
+This frontend project is part of the larger Anyware Software and is responsible for rendering the user dashboard. Below are the key features and requirements for this frontend implementation.
 
-Features
-Login/Logout functionality on the home page.
-Responsive design to fit any screen size.
-Reusable components for maintainability.
-Material UI components for a modern look and feel.
-Hover effect on sidebar links.
-Technologies
-ReactJS
-Material UI
-Setup
-Clone the repository.
+## Features and Requirements
 
+### User Authentication
 
-###npm test
-Save to grepper
+- The dashboard should be rendered only for logged-in users.
+- Implement a login/logout button on the home page.
+- Allow users to log in without any username or password.
+- If the user is logged in, show the dashboard; otherwise, show the home page.
+
+### Responsiveness
+
+- Ensure that the application is fully responsive and can adapt to any screen size.
+
+### Reusable Components
+
+- Build the application using reusable components to enhance maintainability.
+
+### Material UI
+
+- Utilize Material UI components for a modern and consistent user interface.
+
+### Sidebar Styling
+
+- Change the background and foreground of links in the sidebar to white when the mouse hovers over them.
+
+### Testing
+
+- Apply unit tests and integration tests using your favorite test library to ensure code reliability and functionality.
+
+## Technologies Used
+
+- ReactJS
+- Material UI
+
